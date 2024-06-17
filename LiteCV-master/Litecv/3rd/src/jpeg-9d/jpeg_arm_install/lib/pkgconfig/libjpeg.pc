@@ -1,0 +1,10 @@
+prefix=/home/swann/IMX_283A/Qt/App/LiteCV/Litecv/3rd/src/jpeg-9d/jpeg_arm_install
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libjpeg
+Description: Reads and writes JPEG files
+Version: 9.4.0
+Libs: -L${libdir} -ljpeg
+Cflags: -I${includedir}

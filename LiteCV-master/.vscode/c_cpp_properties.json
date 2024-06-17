@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/Litecv/inc/Core",
+                "${workspaceFolder}/Litecv/inc/Imgproc",
+                "${workspaceFolder}/Litecv/inc/QRdec",
+                "${workspaceFolder}/Litecv/3rd/src/libqrencode",
+                "${workspaceFolder}/Litecv/3rd/win_3rd_lib/seetaface_win_install/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:/MinGW/bin/gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}
+
